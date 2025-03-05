@@ -1,4 +1,6 @@
-#include <abstrax/string/string.h>
+#include <abstrax/types/string.h>
+#include <string.h>
+#include <ctype.h>
 
 struct ReturnValue string_init(char *initial){
     struct ReturnValue ret;
@@ -28,8 +30,6 @@ struct ReturnValue string_init(char *initial){
 }
 
 void string_deinit(struct string *instance){
-    if(instance == NULL)
-        return;
     free(instance->native_value);
     instance->value_size = 0;
     free(instance);

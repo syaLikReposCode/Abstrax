@@ -1,9 +1,7 @@
 #ifndef _ABSTRAX_STRING
 #define _ABSTRAX_STRING 1
 #include <abstrax/baseobject.h>
-#include <stdlib.h>
-#include <string.h>
-#include <ctype.h>
+#include <abstrax/traits/iterable.h>
 
 struct string{
     char *native_value;
@@ -15,7 +13,7 @@ struct string{
 #define STRING_ALPHABETS_LOWER "abcdefghijklmnopqrstuvwxyz"
 #define STRING_ALPHABETS_UPPER "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 #define STRING_NUMERICS "0123456789"
-#define STRING_PUNCTUATIONS "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"
+#define STRING_PUNCTUATIONS "!\"#$%%&'()*+,-./:;<=>?@[\\]^_`{|}~"
 
 
 struct ReturnValue string_init(char *initial);

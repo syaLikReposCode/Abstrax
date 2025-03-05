@@ -1,13 +1,13 @@
 #ifndef _ABSTRAX_BASEOBJECT
 #define _ABSTRAX_BASEOBJECT 0
-
-#define ABSTRAX_META_VERSION "1.0" /* The overall version of the library, `baseobject.h` can be referred as "the meta/parent" of all libraries. */
+#include <stdlib.h>
+#define ABSTRAX_META_VERSION "1.0" /* The overall version of the library */
 
 #ifndef SIZE_VALUE_DESCRIPTION
 #define SIZE_VALUE_DESCRIPTION 512 /* Value description size used in `ReturnValue::return_type` */
 #endif
 
-#define _IMPLEMENT(X) // cosmetic purpose, for attribute use-case.
+#define _IMPLEMENT(X) // attribute notation. Yes, it does nothing.
 
 enum ErrorCode{
     Ok = 0,
