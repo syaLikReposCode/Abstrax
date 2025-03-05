@@ -5,11 +5,19 @@ A set of comprehensive algorithm and handy utilities you can use!
 Abstrax is a library-based improvement with added proper project structure and also a counterpart of [Easy-C-Header](https://github.com/syaLikReposCode/Easy-C-Header).
 
 # Version
-1.0, it does not involve build project yet, because there's only 1 feature.
-Run: `(clang|gcc) -c -Iinclude src/string/string.c -o abstrax.o`
+1.1.0
+
+# Building
+**Prequisite:**
+Functional C Compiler, of course.
+CMake.
+
+Step 1: Making the directory for build target (`mkdir build && cd build`)
+Step 2: Run `cmake .. -G <generator-name>`
+Step 3: Then, `cmake --build .`
 
 # License
-This project is licensed under the permissive terms of MIT License. Read [License](https://github.com/syaLikReposCode/Abstrax/blob/main/LICENSE) for more information.
+This project is licensed under the terms of LGPL License. Read [License](https://github.com/syaLikReposCode/Abstrax/blob/main/LICENSE) for more information.
 
 # Goals
 The project has no goals in mind, this library model AND it's algorithm is only a testing environment and learning purpose for myself.
