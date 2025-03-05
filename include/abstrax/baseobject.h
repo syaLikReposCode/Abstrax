@@ -1,7 +1,7 @@
 #ifndef _ABSTRAX_BASEOBJECT
 #define _ABSTRAX_BASEOBJECT 0
 #include <stdlib.h>
-#define ABSTRAX_META_VERSION "1.0" /* The overall version of the library */
+#define ABSTRAX_META_VERSION "1.1.1" /* The overall version of the library */
 
 #ifndef SIZE_VALUE_DESCRIPTION
 #define SIZE_VALUE_DESCRIPTION 512 /* Value description size used in `ReturnValue::return_type` */
