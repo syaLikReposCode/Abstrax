@@ -54,3 +54,8 @@ dkms.conf
 .vscode
 clean.sh
 compile.sh
+test.c
+test
+
+build
+lib
