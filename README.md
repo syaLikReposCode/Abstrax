@@ -5,7 +5,7 @@ A set of comprehensive algorithm and handy utilities you can use!
 Abstrax is a library-based improvement with added proper project structure and also a counterpart of [Easy-C-Header](https://github.com/syaLikReposCode/Easy-C-Header).
 
 # Version
-1.1.0
+1.1.1
 
 # Building
 **Prequisite:**
